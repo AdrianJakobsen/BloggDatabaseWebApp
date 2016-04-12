@@ -13,7 +13,7 @@
      * 
      */
     "db" => function() {
-        $db = new PDO("mysql:host=192.168.133.87;dbname=uit", "uit", "a4lzgGTc2K");
+        $db = new PDO("mysql:host=kark.hin.no;dbname=stud_v16_lian", "v16_lian", "lian");
         $db->exec("SET NAMES utf8");
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         
